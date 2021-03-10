@@ -60,7 +60,7 @@ header {
 nav {
     /*
     Floats the entire menu on the left of the content.
-  */height: 500px;
+  */ height: 500px;
     width: 100px;
     float: left;
     padding: 10px;
@@ -106,7 +106,6 @@ footer {
     line-height: 40px;
     clear: both;
     background-color: #b32dfa;
-  
 }
 
 .Introduction {
