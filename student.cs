@@ -25,9 +25,9 @@ namespace WpfApp1
     private void btnname_Click(object sender, RoutedEventArgs e)
     {
         student st1 = new student("Phuong");
-        st.Talk();
+        st.name();
         Student st2 = new student();
         st1.StudentName = "Thinh";
-        st1.Talk();
+        st1.name();
     }
 }
