@@ -4,11 +4,9 @@ using System.Text;
 
 namespace WpfApp1
 {
-    class Student
+    class student
     {
-         1.Định nghĩa trường Name
         private string Name;
-        2.Định nghĩa thuộc tính StudentName từ trường Name
         public string StudentName
         {
             get
@@ -20,5 +18,16 @@ namespace WpfApp1
                 Name = value;
             }
         }
-        3.Định nghĩa phương thức khởi tạo Student(string stName)
-       
+        public void student(string stName)
+        
+            Console.WriteLine("Student.");
+        }
+    private void btnname_Click(object sender, RoutedEventArgs e)
+    {
+        student st1 = new student("Phuong");
+        st.Talk();
+        Student st2 = new student();
+        st1.StudentName = "Thinh";
+        st1.Talk();
+    }
+}
